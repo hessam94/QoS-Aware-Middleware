@@ -1,19 +1,3 @@
-%%%******************   begin rnn_gen_net1.m      *********************%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%  Info  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%   File Name       :     rnn_gen_net1.m                             %%%
-%%%   Type            :     m script file                           %%%
-%%%   Parent          :     None                                    %%%
-%%%   External Calls  :     None                                    %%% 
-%%%   Internal Calls  :     None                                    %%%  
-%%%   Date            :     September, 1, 1999                      %%%
-%%%   Author          :     Hossam Eldin Mostafa Abdelbaki          %%%
-%%%   Address         :     University of Central Florida,          %%%
-%%%                   :     School of Computer Science              %%%
-%%%  Email            :     ahossam@cs.ucf.edu                      %%% 
-%%%  Home Page        :     http://www.cs.ucf.edu/~ahossam/         %%% 
-%%%  Help             :     read the manual file (rnnsimve.pdf)     %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 %################ Network Parameter Initialization ###########
 Mse_Threshold  = .00005;                     %Required stop mean square error value
