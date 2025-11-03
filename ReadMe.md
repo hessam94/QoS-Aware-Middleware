@@ -1,5 +1,31 @@
-In this research we tried to get an improved QoE estimation for video streaming applications. it is done in few steps:   
-1- Subjective test: 20 users are contirbuted in a real subjective test and rated 30 different distorted videos, each one with different distortion rate.  
-2- Hybrid mahcine learning training: based on the two network parameter, loss rate and Mean loss burst size, as the input and the acheved scores from subjective test   
-as the target, we train a nueral network model. This model can estimate teh QoE(subjective output) beased on the video distortion rate. So we can balance the video resolution based on the network situation in real time.  
-3- In the end we improved the Random Nuearl Netwrok algorithm and got better estimation precision. 
+# **Research Summary: QoE Estimation for Video Streaming**
+
+In this research, we aimed to improve **Quality of Experience (QoE)** estimation for video streaming applications using **Quality of Service (QoS)** parameters — effectively creating a **mapping from QoS to QoE**.  
+The study was conducted in several key steps:
+
+---
+
+## **1. Subjective Test**
+- Conducted a **real-world subjective experiment** with **20 participants**.  
+- Each participant rated **30 distorted video samples**, each with a different **distortion rate**.  
+- These ratings provided the **ground-truth QoE scores** used for model training.
+
+---
+
+## **2. Hybrid Machine Learning Training**
+- **Input features:**
+  - Network **loss rate**
+  - **Mean loss burst size**
+- **Target values:**
+  - Subjective **QoE scores** obtained from the user study
+- Trained a **neural network model** to estimate QoE based on video distortion levels.  
+- Enabled **real-time video resolution adaptation** according to current network conditions.
+
+---
+
+## **3. Algorithm Enhancement**
+- Improved the **Random Neural Network (RNN)** algorithm.  
+- Achieved **higher estimation precision** and more **accurate QoE prediction** performance.
+
+---
+
